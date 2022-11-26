@@ -6,7 +6,7 @@ import {BsInstagram} from 'react-icons/bs'
 const Footer = () => {
   return (
     <footer>
-      <a href = '#' className = 'footer_logo'>Egator</a>
+      <a href = '#' className = 'footer_logo'>Scott Kang's Website</a>
       <ul className = 'permalinks'>
         <li><a href = '#'>Home</a></li>
         <li><a href = '#about'>About</a></li>
@@ -22,7 +22,7 @@ const Footer = () => {
       </div>
 
       <div className="footer_copyright">
-        <small>&copy; Egator Tutorials. All rights reserved</small>
+        <small>&copy; Used contents from Egator Tutorials. All rights reserved</small>
       </div>
 
 
