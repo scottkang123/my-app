@@ -1,3 +1,5 @@
+# my-app
+
 Used npm, a Javascript manager, and a ‘create-react-app’ module provided by Facebook to create React.js apps for a personal website on Visual Studio Code. The program consists of .jsx, .html, and .css files and is deployed to the server using hostinger service. http://scott-kang-website.com/
 
 # Getting Started with Create React App
