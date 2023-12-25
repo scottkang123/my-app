@@ -2,6 +2,8 @@
 
 Used npm, a Javascript manager, and a ‘create-react-app’ module provided by Facebook to create React.js apps for a personal website on Visual Studio Code. The program consists of .jsx, .html, and .css files and is deployed to the server using hostinger service. http://scott-kang-website.com/
 
+Update: ended the hostinger service and deployed the website using github: https://scottkang123.github.io/my-app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
