@@ -4,11 +4,12 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {BsMessenger} from 'react-icons/bs'
 import {AiFillPhone} from 'react-icons/ai'
 
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from 'emailjs-com'
 
 function Contact() {
   const form =useRef();
+  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,6 +17,7 @@ function Contact() {
     emailjs.sendForm('service_6tkfy4c', 'template_yl97xz9', form.current, 'UWGNQtl1rwFNYWSwr')
       .then((result) => {
           console.log(result.text);
+          setIsSubmitted(true);
       }, (error) => {
           console.log(error.text);
       });
@@ -61,6 +63,9 @@ function Contact() {
           <textarea name = 'message' rows = '7' placeholder= 'Your Message' required> </textarea>
           <button type = 'submit' className = 'btn btn-primary'>Send Message</button>
         </form>
+
+        {isSubmitted && <div className="success-message">Submitted successfully!</div>} {/* Conditional rendering */}
+        
       </div>
 
     </section>
