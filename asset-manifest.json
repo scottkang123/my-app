@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.07e76bd5.css",
+    "main.js": "/my-app/static/js/main.daf69f64.js",
+    "static/media/scott_beach.png": "/my-app/static/media/scott_beach.706b583163f63e8fafc6.png",
+    "static/media/me_image.png": "/my-app/static/media/me_image.554af2b56d2ab159a742.png",
+    "static/media/Phishing_URL_Classification.pdf": "/my-app/static/media/Phishing_URL_Classification.ac9d6642ee1aea05dca7.pdf",
+    "static/media/resume.pdf": "/my-app/static/media/resume.dcdcc9e064d268e0966e.pdf",
+    "static/media/portfolio2.jpg": "/my-app/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
+    "static/media/portfolio6.jpg": "/my-app/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "index.html": "/my-app/index.html",
+    "main.07e76bd5.css.map": "/my-app/static/css/main.07e76bd5.css.map",
+    "main.daf69f64.js.map": "/my-app/static/js/main.daf69f64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07e76bd5.css",
+    "static/js/main.daf69f64.js"
+  ]
+}
