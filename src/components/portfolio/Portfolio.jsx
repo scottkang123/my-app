@@ -1,6 +1,8 @@
 import React from 'react'
 import './portfolio.css'
 import IMG from '../../assets/portfolio6.jpg'
+import IMG2 from '../../assets/portfolio2.jpg'
+import ML from './ML'
 
 const data = [
   {
@@ -10,6 +12,15 @@ const data = [
     github: 'https://github.com/scottkang123'
   }
 ]
+
+const data_ml = [
+  {
+    id: 2,
+    image: IMG2,
+    title: "Machine Learning Project: Phishing URL Classification"
+  }
+]
+
 
 
 const Portfolio = () => {
@@ -30,12 +41,30 @@ const Portfolio = () => {
                   </div>
                   <h3>{title}</h3>
                   <div className="portfolio_item-cta">
-                    <a href = {github} className = 'btn'>GitHub </a>
+                  <a href = {github} className = 'btn'>GitHub </a>
                   </div>
-          </article>
+                  </article>
               )
             })
           }
+
+{
+            data_ml.map(({id, image, title}) => {
+              return(
+                  <article key = {id} className = 'portfolio_item'>
+                  <div className="portfolio_item_image">
+                    <img src = {image} alt = {title}/>
+                  </div>
+                  <h3>{title}</h3>
+                  <div className="portfolio_item-cta">
+                    <ML/>
+                  </div>
+                  </article>
+              )
+            })
+          }
+
+
 
       </div>
 
