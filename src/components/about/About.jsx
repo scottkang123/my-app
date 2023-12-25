@@ -35,7 +35,7 @@ function About() {
                 <small> Minor: Mathematics, Economics, Chemistry</small>
                </li>
                <li>
-                 <small> GPA: 3.683</small>
+                 <small> GPA: 3.78</small>
                </li>
             </article>
           
@@ -50,13 +50,28 @@ function About() {
             <article className ='about_card'>
                <MdLibraryBooks className = 'about_icon'/> 
                <h5>Projects</h5>
-               <small> Individual Projects and School Projects </small>
+               <li>
+                 <small> Phishing Link Deteching ML Projects (Numpy, Python) </small>
+               </li>
+               <li>
+                 <small> Linux Peer to Peer chat Network System (C) </small>
+               </li>
+               <li>
+                 <small> Diff. Interactive Data Visualization Projects (D3, Javascript) </small>
+               </li>
+               <li>
+                 <small> Maze Solver / Text Twist (C++) </small>
+               </li>
+               <li>
+                 <small> Front-End/Back-End Project (Node.js, React, MySQL) </small>
+               </li>
+               
             </article>
             
           </div>
           <p>
-            I am currently a Junior at Vanderbilt University undergraduate, majoring in Computer Science.
-            I am from South Korea, but throughout my childhood, I have lived in different countries, including S.Korea, Malaysia, Thailand, Taiwan, and United States.
+            I am currently a Senior at Vanderbilt University Engineering School, majoring in Computer Science.
+            I was born in Seoul, South Korea. However, throughout my childhood, I have lived in 5 different countries, including South Korea, Malaysia, Thailand, Taiwan, and United States.
             With my diverse and multicultural background, I learned to adapt quickly to new environment and have a flexible mindset. 
             I believe programming is a tool that provides solutions and benefits to various aspects of our lives. As programming has limitles potential and usages, I want 
             to use my programming skills to positively impact the world and make our lives more efficient, entertaining, and harmonious. 

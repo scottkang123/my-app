@@ -1,0 +1,49 @@
+def getResult(arrival, direction):
+    n = len(arrival)
+    result = [0] * n
+    last_passed_time = -1
+    ascending_queue = []
+    descending_queue = []
+
+    for i in range(n):
+        if direction[i] == 0:
+            ascending_queue.append(i)
+        else:
+            descending_queue.append(i)
+            
+    for i in range(max(arrival) + 1):
+        # Check if any hiker passed through in the previous second
+        if i > 0 and last_passed_time == i - 1:
+            if descending_queue:
+                hiker = descending_queue.pop(0)
+                result[hiker] = i
+                last_passed_time = i
+            elif ascending_queue:
+                hiker = ascending_queue.pop(0)
+                result[hiker] = i
+                last_passed_time = i
+        # Check for hikers arriving at the current second
+        while arrival and arrival[0] == i:
+            if not descending_queue:
+                if ascending_queue:
+                    hiker = ascending_queue.pop(0)
+            elif not ascending_queue:
+                if descending_queue:
+                    hiker = descending_queue.pop(0)
+            else:
+                if last_passed_time == i - 1:
+                    hiker = descending_queue.pop(0)
+                else:
+                    hiker = ascending_queue.pop(0)
+            result[hiker] = i
+            last_passed_time = i
+
+    return result
+
+
+
+# Example usage
+arrival = [0, 1, 1, 3, 3]
+direction = [0, 1, 0, 0, 1]
+result = getResult(arrival, direction)
+print(result)  # Output: [0, 2, 1, 4, 3]
