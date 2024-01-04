@@ -35,7 +35,7 @@ function About() {
                 <small> Minor: Mathematics, Economics, Chemistry</small>
                </li>
                <li>
-                 <small> GPA: 3.78</small>
+                 <small> GPA: 3.801</small>
                </li>
             </article>
           
