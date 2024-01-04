@@ -70,6 +70,7 @@ function About() {
             
           </div>
           <p>
+            Bachelor's Degree
             I am currently a Senior at Vanderbilt University Engineering School, majoring in Computer Science.
             I was born in Seoul, South Korea. However, throughout my childhood, I have lived in 5 different countries, including South Korea, Malaysia, Thailand, Taiwan, and United States.
             With my diverse and multicultural background, I learned to adapt quickly to new environment and have a flexible mindset. 
