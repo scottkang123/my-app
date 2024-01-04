@@ -4,6 +4,7 @@ import IMG from '../../assets/portfolio5.jpg'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio6.jpg'
 import ML from './ML'
+import NA from './NetworkAnalysis'
 
 const data = [
   {
@@ -26,7 +27,7 @@ const data_na = [
   {
     id: 3,
     image: IMG3,
-    title: "Drug Drug Interaction Network Analysis"
+    title: "Network Analysis: Drug Drug Interaction"
   }
 ]
 
@@ -66,7 +67,7 @@ const Portfolio = () => {
                   </div>
                   <h3>{title}</h3>
                   <div className="portfolio_item-cta">
-                    <ML/>
+                    <NA/>
                   </div>
                   </article>
               )
