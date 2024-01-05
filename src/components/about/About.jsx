@@ -19,59 +19,37 @@ function About() {
           </div>
         </div>
 
-        <div className="about_content">
-
+    
           <div className="about_cards">
             <article className ='about_card'>
                <BsFillBookFill className = 'about_icon'/>
                <h5>Education</h5>
                <li>
-                <small> Vanderbilt University Bachelor of Science </small>
+                <m> Vanderbilt University Bachelor of Science </m>
                </li>
                <li>
-                <small> Major: Computer Science</small>
+                <m> Graduation: Dec 2023 </m>
                </li>
                <li>
-                <small> Minor: Mathematics, Economics, Chemistry</small>
+                <m> Major: Computer Science</m>
                </li>
                <li>
-                 <small> GPA: 3.801</small>
+                <m> Minor: Mathematics, Economics, Chemistry</m>
+               </li>
+               <li>
+                 <m> GPA: 3.801</m>
+               </li>
+               <li>
+                 <m> Relevant Courseworks: Principles of Software Engineer, Machine Learning, Data Visualization, Operating Systems, Project in Virtual Reality Design, Network Analysis in Healthcare, Theory of Automata, Program Design Data Structures, Algorithms, Intermediate Software Design, Programming Languages, Programming & Problem-Solving</m>
+               </li>
+               <li>
+                 <m>Awards & Honors: Dean’s List, Yonsei Summer Program Scholarship, Colonel Book Report Awards, Major General award in the training center of the Korean Army, special warrior title for the top performance </m>
                </li>
             </article>
-          
-            {/*
-            <article className ='about_card'>
-               <MdWork className = 'about_icon'/> 
-               <h5>Work Experience</h5>
-               <small> </small>
-            </article>
-            */}
-          
-            <article className ='about_card'>
-               <MdLibraryBooks className = 'about_icon'/> 
-               <h5>Projects</h5>
-               <li>
-                 <small> Drug Drug Interaction Network Analysis (NetworkX, Python) </small>
-               </li>
-               <li>
-                 <small> Phishing Link Deteching ML Projects (Numpy, Python) </small>
-               </li>
-               <li>
-                 <small> Linux Peer to Peer chat Network System (C) </small>
-               </li>
-               <li>
-                 <small> Diff. Interactive Data Visualization Projects (D3, Javascript) </small>
-               </li>
-               <li>
-                 <small> Maze Solver / Text Twist (C++) </small>
-               </li>
-               <li>
-                 <small> Front-End/Back-End Project (Node.js, React, MySQL) </small>
-               </li>
-               
-            </article>
-            
           </div>
+          
+          <div className='about_content'>
+
           <p>
           I have earned a Bachelor of Science degree from Vanderbilt University School of Engineering. My primary field of study is Computer Science, 
           and I have also pursued minors in Mathematics, Economics, and Chemistry. I am excited to leverage my academic knowledge and passion for 
@@ -100,9 +78,9 @@ function About() {
 
           <a href = '#contact' className = 'btn btn-primary'>Let's Talk</a>
 
+          </div>
 
         </div>
-      </div>
 
     </section>
   )

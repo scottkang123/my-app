@@ -1,7 +1,16 @@
+/*
 .about_container{
     display : grid;
     grid-template-columns: 35% 50%;
     gap : 15%;
+}*/
+
+.about_container {
+    display: grid;
+    grid-template-areas: 
+        'aboutme aboutcard'
+        'aboutcontent aboutcontent'; 
+    gap: 2rem; /* You can adjust the gap to your preference */
 }
 
 .about_me{
@@ -9,8 +18,10 @@
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(45deg, transparent, var(--color-primary) transparent);
-    display: grid;
-    place-items: center;
+    /*display: grid;
+    place-items: center;*/
+    display: flex;
+    align-items: center;
 } 
 
 .about_me_image{
@@ -21,13 +32,13 @@
 }
 
 .about_me_image:hover{
-     /*transform: rotate(0deg);*/
+     transform: rotate(5deg);
 
 }
 
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 1.5rem;
 }
 
@@ -59,6 +70,12 @@
 .about_card small{
     font-size:0.7rem;
     color: var(--color-light);
+}
+
+.about_content{
+    grid-area: aboutcontent;
+    width: 100%;
+    /* Rest of your styling */
 }
 
 .about_content p{
