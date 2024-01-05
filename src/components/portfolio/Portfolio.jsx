@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG from '../../assets/portfolio5.jpg'
+import IMG from '../../assets/portfolio5.png'
 import IMG2 from '../../assets/portfolio2.jpg'
 import IMG3 from '../../assets/portfolio6.jpg'
 import ML from './ML'
@@ -67,7 +67,7 @@ const Portfolio = () => {
                   </div>
                   <h3>{title}</h3>
                   <div className="portfolio_item-cta">
-                    <NA/>
+                    <ML/>
                   </div>
                   </article>
               )
@@ -83,7 +83,7 @@ const Portfolio = () => {
                   </div>
                   <h3>{title}</h3>
                   <div className="portfolio_item-cta">
-                    <ML/>
+                    <NA/>
                   </div>
                   </article>
               )
