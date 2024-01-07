@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/my-app/static/css/main.6feeba95.css",
-    "main.js": "/my-app/static/js/main.829e0219.js",
+    "main.js": "/my-app/static/js/main.eb833c05.js",
+    "static/media/project-demo-group4.mp4": "/my-app/static/media/project-demo-group4.5d513228d6f6fc784be9.mp4",
+    "static/media/p3-Kang.mp4": "/my-app/static/media/p3-Kang.6038dce86a49a73bb471.mp4",
     "static/media/scott_beach.png": "/my-app/static/media/scott_beach.706b583163f63e8fafc6.png",
     "static/media/DDI_Network_paper_Scott.pdf": "/my-app/static/media/DDI_Network_paper_Scott.df0affc7baab4d1c1d4d.pdf",
     "static/media/me_image.png": "/my-app/static/media/me_image.554af2b56d2ab159a742.png",
@@ -10,12 +12,14 @@
     "static/media/portfolio5.png": "/my-app/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/my-app/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/my-app/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/portfolio1.jpg": "/my-app/static/media/portfolio1.f5e72352e5aa840702b8.jpg",
+    "static/media/vandymarketplace.png": "/my-app/static/media/vandymarketplace.dfb4ba2f966cdd5ae36f.png",
     "index.html": "/my-app/index.html",
     "main.6feeba95.css.map": "/my-app/static/css/main.6feeba95.css.map",
-    "main.829e0219.js.map": "/my-app/static/js/main.829e0219.js.map"
+    "main.eb833c05.js.map": "/my-app/static/js/main.eb833c05.js.map"
   },
   "entrypoints": [
     "static/css/main.6feeba95.css",
-    "static/js/main.829e0219.js"
+    "static/js/main.eb833c05.js"
   ]
 }
