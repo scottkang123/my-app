@@ -39,8 +39,14 @@ const Services = () => {
 
             <li>
               <AiOutlineCheck className = 'service_list-icon'/>
-              <p>Creating web application using React Library</p>
+              <p>Developed a website platform that facilitates the buying and selling of items among students within Vanderbilt. Used firebase to store the users' data and utilized React framework and chakraUI library to design the front-end. Used node.js for additional backend services   </p>
             </li>
+
+            <li>
+              <AiOutlineCheck className = 'service_list-icon'/>
+              <p>Developing a youtube-clone website where the user can upload videos and like/dislike other users' videos. Used MongoDB to store the users' data and Amazon S3 to store images and videos. Angular framework was used to create the front-end and Spring Boot was used to create the backend where it facilitates the communication with the database and storage by using various API requests   </p>
+            </li>
+
 
           </ul>
         </article> 

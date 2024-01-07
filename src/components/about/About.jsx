@@ -51,8 +51,8 @@ function About() {
           <div className='about_content'>
 
           <p>
-          I have earned a Bachelor of Science degree from Vanderbilt University School of Engineering. My primary field of study is Computer Science, 
-          and I have also pursued minors in Mathematics, Economics, and Chemistry. I am excited to leverage my academic knowledge and passion for 
+          I have earned a Bachelor of Science degree from Vanderbilt University School of Engineering. My major is Computer Science, 
+          and my minors are Mathematics, Economics, and Chemistry. I am excited to leverage my academic knowledge and passion for 
           software engineering to contribute in cutting-edge projects. My proficiency in programming coupled with my creative problem-solving skills 
           enable me to write optimized and scalable code that adheres to industry best practices. I also possess a strong foundation in algorithms, 
           data structures, and software design principles, which I believe will be valuable in formulating innovative solutions to meet both product 
@@ -63,9 +63,9 @@ function About() {
           <p>
             I have gained proficiency in several programming languages including C++, Python, Java, C#, Matlab, Racket, and Prolog during my coursework 
             at Vanderbilt University. Additionally, during my internship at Stryker, I utilized C# to develop test cases using the Selenium library and 
-            created a debugging tool for communication with various networking devices. For full-stack projects, I have leveraged JavaScript, the React library, 
+            created a debugging tool for communicating with various networking devices. For full-stack projects, I have leveraged JavaScript, the React library, 
             the Jest testing framework, and Firebase to construct a Reuse Market website for Vanderbilt University. I have also employed Java, Angular, Spring Boot, 
-            Amazon S3, and MongoDB to build a YouTube Clone. Additionally, my strong interest in data science has led me to use MySQL for a project focused on performing 
+            Amazon S3, and MongoDB to build a YouTube Clone for my personal project. Additionally, my strong interest in data science has led me to use MySQL for a project focused on performing 
             diverse data analysis tasks on voters' information.
           </p>
 

@@ -27,7 +27,7 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Python</h4>
-                  <small className = 'text-light'>Intermediate</small>
+                  <small className = 'text-light'>Expert</small>
                 </div>
               </article>
 
@@ -51,7 +51,7 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>C</h4>
-                  <small className = 'text-light'>Intermediate</small>
+                  <small className = 'text-light'>Beginner</small>
                 </div>
               </article>
 
@@ -67,7 +67,7 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Racket</h4>
-                  <small className = 'text-light'>Intermediate</small>
+                  <small className = 'text-light'>Beginner</small>
                 </div>
               </article>
 
@@ -75,7 +75,7 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Prolog</h4>
-                  <small className = 'text-light'>Intermediate</small>
+                  <small className = 'text-light'>Beginner</small>
                 </div>
               </article>
 
@@ -114,6 +114,30 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>MySQL</h4>
+                  <small className = 'text-light'>Expert</small>
+                </div>
+              </article>
+
+              <article className = 'experience_details'>
+                <BsFillCheckCircleFill className = "experience_details-icon"/>
+                <div>
+                  <h4>Firebase</h4>
+                  <small className = 'text-light'>Intermediate</small>
+                </div>
+              </article>
+
+              <article className = 'experience_details'>
+                <BsFillCheckCircleFill className = "experience_details-icon"/>
+                <div>
+                  <h4>MongoDB</h4>
+                  <small className = 'text-light'>Intermediate</small>
+                </div>
+              </article>
+
+              <article className = 'experience_details'>
+                <BsFillCheckCircleFill className = "experience_details-icon"/>
+                <div>
+                  <h4>Amazon S3</h4>
                   <small className = 'text-light'>Intermediate</small>
                 </div>
               </article>
@@ -123,7 +147,7 @@ const Experience = () => {
 
         <div className = 'experience_backe nd'>
   
-          <h3>Libraries</h3>
+          <h3>Libraries/Frameworks</h3>
 
           <div className = 'experience_content'>
 
@@ -147,23 +171,23 @@ const Experience = () => {
               <BsFillCheckCircleFill className = 'experience_details-icon' />
               <div>
                 <h4>Node.js</h4>
-                <small className = 'text-light'>Beginner's Level</small>
+                <small className = 'text-light'>Beginner</small>
               </div>
             </article>
 
             <article className = 'experience_details'>
               <BsFillCheckCircleFill className = 'experience_details-icon' />
               <div>
-                <h4>D3.js</h4>
-                <small className = 'text-light'>Beginner's Level</small>
+                <h4>D3</h4>
+                <small className = 'text-light'>Beginner</small>
               </div>
             </article>
 
             <article className = 'experience_details'>
               <BsFillCheckCircleFill className = 'experience_details-icon' />
               <div>
-                <h4>.Net framework</h4>
-                <small className = 'text-light'>Beginner's Level</small>
+                <h4>.Net</h4>
+                <small className = 'text-light'>Beginner</small>
               </div>
             </article>
 
@@ -171,7 +195,7 @@ const Experience = () => {
               <BsFillCheckCircleFill className = 'experience_details-icon' />
               <div>
                 <h4>Matplotlib</h4>
-                <small className = 'text-light'>Beginner's Level</small>
+                <small className = 'text-light'>Beginner</small>
               </div>
             </article>
 
@@ -179,9 +203,58 @@ const Experience = () => {
               <BsFillCheckCircleFill className = 'experience_details-icon' />
               <div>
                 <h4>Seaborn</h4>
-                <small className = 'text-light'>Beginner's Level</small>
+                <small className = 'text-light'>Beginner</small>
               </div>
             </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>Angular</h4>
+                <small className = 'text-light'>Beginner</small>
+              </div>
+            </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>Spring Boot</h4>
+                <small className = 'text-light'>Beginner</small>
+              </div>
+            </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>NetworkX</h4>
+                <small className = 'text-light'>Beginner</small>
+              </div>
+            </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>Selenium</h4>
+                <small className = 'text-light'>Beginner</small>
+              </div>
+            </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>C++ STL</h4>
+                <small className = 'text-light'>Expert</small>
+              </div>
+            </article>
+
+            <article className = 'experience_details'>
+              <BsFillCheckCircleFill className = 'experience_details-icon' />
+              <div>
+                <h4>Tensorflow</h4>
+                <small className = 'text-light'>Beginner</small>
+              </div>
+            </article>
+            
           </div>
         </div> 
 
@@ -193,7 +266,6 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Multivariable Calculus</h4>
-                  <small className = 'text-light'>Beginner</small>
                 </div>
               </article>
 
@@ -201,7 +273,6 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Differential Equations with Linear Algebra</h4>
-                  <small className = 'text-light'>Intermediate</small>
                 </div>
               </article>
 
@@ -209,7 +280,6 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Probability and Statistics</h4>
-                  <small className = 'text-light'>Intermediate</small>
                 </div>
               </article>
 
@@ -217,7 +287,6 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Numerical Mathematics</h4>
-                  <small className = 'text-light'>Intermediate</small>
                 </div>
               </article>
 
@@ -232,6 +301,14 @@ const Experience = () => {
                 <BsFillCheckCircleFill className = "experience_details-icon"/>
                 <div>
                   <h4>Agile</h4>
+                  <small className = 'text-light'>Beginner</small>
+                </div>
+              </article>
+
+              <article className = 'experience_details'>
+                <BsFillCheckCircleFill className = "experience_details-icon"/>
+                <div>
+                  <h4>XP</h4>
                   <small className = 'text-light'>Beginner</small>
                 </div>
               </article>

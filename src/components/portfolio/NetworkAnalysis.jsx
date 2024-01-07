@@ -4,7 +4,7 @@ import paper from '../../assets/DDI_Network_paper_Scott.pdf'
 const ML = () => {
   return (
     <div className = 'puc'>
-        <a href = {paper} download className = 'btn'> Drug Drug Interaction Network Analysis </a>
+        <a href = {paper} download className = 'btn'> Drug Drug Interaction Network Analysis Paper</a>
     </div>
   )
 }
